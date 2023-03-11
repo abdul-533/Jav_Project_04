@@ -1,0 +1,61 @@
+Hello everyone, this documentation will guide you through the project, explain the outline and purpose of the project.
+It will help you to understand in a simpler way.
+
+    The main purpose of the project is to recruit employees for a company. But these employees have departments while they are being registered.
+so that we can list the employees according to the departments or according to the raise rates in the departments.
+Let's make a raise.
+
+---------------------------------------------------------------- ---------------------------------------------------------------- -----------------
+---------------------------------------------------------------- ---------------------------------------------------------------- -----------------
+
+    Specific requests within the project are as follows:
+
+
+    1- Each department should have its own raise rate.
+
+        1.1- A raise should be made only to those who work in the amount of the raise rate. --
+
+        For example: A person named A works in the Information Technologies department and his salary is 10,000,
+A person named B works in the Human Resources department and his salary is 10,000. Raise the Human Resources department
+Let's assume that the salary rate is 20% and the salary rate in the Information Technologies department is 25%. For people A and B
+When a raise is made only once, Person A's salary of 10,000 should be 12500, while Person B's salary should be 12000.
+
+        1.2- The raise rate should not be changed, but it should be accessible so that you can use the rate for the method to be raised.
+
+        1.3- The raise should be made by taking the id of the employee.
+
+        1.4- The raise rate should be fixed and for each person working in a department, the raise rate of that department
+        should be valid.
+
+  2- Each employee must have their own unique ID.
+
+          2.1- In order to distinguish between employees, each user must have a unique ID. For example:
+  Let us have 2 employees and let these 2 employees be called Fırat Yılmaz. Both work in the same departments, but only
+  let someone get a raise. In this case, we have to choose between two identical names. These two names
+  The distinguishing feature should be the employee's ID. The ID should be defined in the project as follows.
+
+              Department Code (Human Resources Department -> IKD) +
+              (Number of employees in the company + 1) +
+              The initials of the employee's full name
+
+              For example: There are 257 employees in the company, Caglar Kızılbulut will be registered in the IT technology department,
+              For ages, the ID should be 'BTD258CKt'.
+
+          2.2- Specific operations should be possible through the employee's ID. For example: if an employee is to be given a raise,
+          ID must be requested, if an employee is to be deleted, their ID must be requested.
+
+
+      3- It should be possible to reach the employees through the department.
+
+          3.1- For example: There should be a feature to list only the employees in the "x" department.
+
+
+      4- While the employees are being printed on the console, only the Employee's ID, Name, Surname, Salary, and Department name should be included.
+
+      For example: "Civil ID: 'BTD1NA', Name: 'Nazmiye Akdogan', Salary: '25000', Department: 'Informatics Technologies Department'"
+
+      (Hint: It can be done easily with the toString() method.)
+
+
+
+
